@@ -9,6 +9,12 @@
 *.user
 *.userosscache
 *.sln.docstates
+CMakeFiles
+Debug
+engine
+MyGame.dir
+res
+Win32
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
