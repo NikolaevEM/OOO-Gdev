@@ -15,6 +15,8 @@ engine
 MyGame.dir
 res
 Win32
+cmake_install.cmake
+CMakeCache.txt
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
