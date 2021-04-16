@@ -23,6 +23,7 @@
  ****************************************************************************/
 
 #include "HelloWorldScene.h"
+#include "TestScene.h"
 //include сцену игры
 
 USING_NS_CC;
@@ -80,7 +81,7 @@ void HelloWorld::Start(cocos2d::Ref* pSpender)
 {
     // Вместо HelloWorld сцена игры
     CCLOG("Start");
-    auto scene = HelloWorld::createScene();
+    auto scene = TestScene::createScene();
     Director::getInstance()->replaceScene(scene);
 }
 
