@@ -755,7 +755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainMenu: {fileID: 64582563}
   Continue: {fileID: 742948820}
-  sceneToLoad: level1
+  sceneToLoad: SampleScene
 --- !u!4 &1002832563
 Transform:
   m_ObjectHideFlags: 0
