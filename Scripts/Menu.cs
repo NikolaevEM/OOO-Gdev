@@ -6,7 +6,7 @@ public class Menu : MonoBehaviour
     public GameObject MainMenu;
     public GameObject Continue;
 
-    public string sceneToLoad = "Game";
+    public string sceneToLoad = "SampleScene";
 
     public void LoadGame()
     {
