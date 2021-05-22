@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraDrag : MonoBehaviour
 {
-    public float dragSpeed = 2;
+    public float dragSpeed = 1;
     private Vector3 dragOrigin;
 
     public Vector2 maxXPositions, maxYPositions;
