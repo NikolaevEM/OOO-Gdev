@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: f56404078bce40649ac8bef54545eb0b
+guid: 08a331966a9f807468f1586b028f3131
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - unitPrefab: {fileID: 8158239749033657056, guid: a595965dd7d33014c82300ec5a14fc1f,
-      type: 3}
+  - ammo: {fileID: 4792277319249676433, guid: ce7a9943a3d4033459b740f74f644686, type: 3}
+  - shotDir: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
