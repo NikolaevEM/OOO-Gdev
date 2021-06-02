@@ -1,21 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ShotScript : MonoBehaviour
+public class WinExit : MonoBehaviour
 {
-    public int damage = 1;
-    public bool isEnemyShot = false;
     // Start is called before the first frame update
     void Start()
     {
-        // timer to die
-        Destroy(gameObject, 20);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 }
