@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 8158239749033657085}
   - component: {fileID: 8158239749033657058}
   - component: {fileID: 8158239749033657059}
+  - component: {fileID: 1876632586589305359}
   m_Layer: 0
-  m_Name: friend2_sprite_0
+  m_Name: unitPrefab2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,3 +157,15 @@ PolygonCollider2D:
       - {x: -0.057466928, y: -0.09649857}
       - {x: 0.05607904, y: -0.0972979}
       - {x: 0.08244093, y: 0.029235778}
+--- !u!114 &1876632586589305359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8158239749033657056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16c173ae26d5fd34496d78bff6242e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
