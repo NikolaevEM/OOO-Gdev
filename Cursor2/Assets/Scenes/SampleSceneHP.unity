@@ -2867,13 +2867,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba07d21c8641ecb46a4e840fface7bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 5
   numberOfLives: 5
   lives:
-  - {fileID: 212332396}
-  - {fileID: 1267134721}
-  - {fileID: 891163136}
-  - {fileID: 20953622}
-  - {fileID: 1504458621}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   HP1: {fileID: 21300000, guid: d82751d96119d84448a9df1957e5b1f1, type: 3}
   HP0: {fileID: 21300000, guid: 12b448f80ddf18344a5719e165be1758, type: 3}
 --- !u!1 &1559676784
@@ -3991,7 +3992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGameOver: GameOver
-  gameTime: 10
+  gameTime: 20
 --- !u!114 &2099440740
 MonoBehaviour:
   m_ObjectHideFlags: 0
